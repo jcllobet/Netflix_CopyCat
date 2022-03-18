@@ -1,0 +1,41 @@
+
+body {
+    background-color: #000;
+    
+}
+.container {
+    position: relative;
+    padding-top: 100px;
+    
+}
+h1 {
+    position: relative;
+    color: white;
+    margin-top: 100px;
+    display: inline-flex;
+    margin-left: 50px;
+}
+#TVShows {
+    display: inline-flex;
+
+}
+
+#dropdownMenuButton2 {
+    color:white;
+    border: 2px solid white;
+    margin-top: 105px;
+    margin-left: 30px;
+
+
+}
+#dropdownMenuButton2:hover {
+color: white;
+border: 3px solid red;
+background-color: red;
+
+}
+h5 {
+    color: white;
+    font-size: 1.5em;
+    
+}
