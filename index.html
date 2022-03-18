@@ -74,31 +74,50 @@
                     </button>
                 </div>
             </form> -->
-
-    <div class="account-menu-item">
-      <div class="account-dropdown-button">
-        <a href="#" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false"
-          aria-label="Jan - Account &amp; Settings">
-          <span class="profile-link" role="presentation">
-            <img class="rounded-profile" src='./assets/kids_icon.png' alt="">
+    <div class="navbar-element">
+      <div class="dropdown">
+        <div class="account-dropdown-button" onmouseover="flipTriangle">
+          <a href=" #" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+            <span class="profile-link" role="presentation">
+              <img class="rounded-profile" src='./assets/kids_icon.png' alt="">
+            </span>
+          </a>
+          <span class="arrow-down d-inline-flex" role="presentation">
           </span>
-        </a>
-        <span class="arrow-down d-inline-flex" role="presentation">
-
-        </span>
-      </div>
-    </div>
-
-    <div class="accountdropdown">
-      <a href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-        <img class="rounded-profile" src="./assets/kids_icon.png" />
-      </a>
-      Kids
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span> You </a>
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Can</a>
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Do it!</a>
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Manage profiles</a>
+            <a class="dropdown-item border-top border-down my-1" href="#">
+              <span class="dropdown-text" role="presentation">
+              </span>Kids</a>
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Account</a>
+            <a class="dropdown-item" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Help Center</a>
+            <a class="dropdown-item border-top my-1" href="#">
+              <span class="dropdown-text" role="presentation">
+                <img class="rounded-profile smaller" src='./assets/kids_icon.png' alt="">
+              </span>Sign Out of Netflix</a>
+          </div>
+        </div>
       </div>
     </div>
 
