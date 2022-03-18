@@ -1,0 +1,23 @@
+.small-text {
+    font-size: 0.7em;
+}
+
+.grey {
+    color: grey;
+}
+
+.nav-link.grey:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.button1 {
+    color: grey;
+    border: 1px solid grey; /* Green */
+    border-radius: 0%;
+}
+
+.nopad {
+    padding-left: 0px !important;
+    margin-left: -15px !important;
+}
