@@ -3,7 +3,6 @@
     max-height: 70px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #000000;
     background-image: linear-gradient(90deg, #000000 64%, #252424 100%);
     padding: 0px;
@@ -87,7 +86,7 @@
 }
 
 .navbar-element {
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 .dropdown-menu {
@@ -121,6 +120,17 @@
 
 .dropdown-item {
     color: white !important;
+}
+
+.nav-left {
+    border: 1px solid white;
+    position: absolute;
+    left: 150px;
+    margin-left: -20pxs\;;
+}
+
+.nav-right {
+    border: 1px solid white;
 }
 
 .border-top {
