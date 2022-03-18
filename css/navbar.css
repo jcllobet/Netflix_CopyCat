@@ -49,8 +49,16 @@
     left: 0px;
 }
 
+.search-icon {
+    border-radius: 0px;
+    width: 25px;
+    height: 25px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 .rounded-profile {
-    border-radius: 3px;
+    border-radius: 0px;
     width: 50px;
     height: 50px;
 }
@@ -83,8 +91,32 @@
 }
 
 .dropdown-menu {
-    opacity: 0.9;
+    opacity: 0.95;
     background-color: #000;
+    margin-top: 20px;
+}
+
+.dropdown-menu::before {
+    content: "▲";
+    position: relative;
+    top: -30px;
+    left: 165px;
+    color: white;
+}
+
+.badge {
+    height: 8px;
+    width: 8px;
+    font-size: 0.6em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: red;
+    color: white;
+    position: relative;
+    top: -7px;
+    left: -17px;
 }
 
 .dropdown-item {
