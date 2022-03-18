@@ -19,61 +19,263 @@
         <title></title>
     </head>
     <body>
-        <!-- Navbar Goes here -->
-        <nav class="container-fluid">
-            <div class="navbar navbar-expand-lg">
-                <img
-                    src="./assets/netflix_logo.png"
-                    alt="netflix logo"
-                    id="logo"
-                />
-            </div>
-            <div class="nav-items">
-                <ul class="d-none d-md-none d-lg-inline-flex">
-                    <li><a href="" class="menu">Home</a></li>
-                    <li><a href="" class="menu">Tv Shows</a></li>
-                    <li><a href="" class="menu">Movies</a></li>
-                    <li><a href="" class="menu">Recently Added</a></li>
-                    <li><a href="" class="menu">My List</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <form class="form-inline my-2 my-lg-0">
-                    <input
-                        class="form-control mr-sm-2"
-                        type="search"
-                        placeholder="Search"
-                        aria-label="Search"
-                    />
-                    <button
-                        class="btn btn-dark my-2 my-sm-0 text-white"
-                        type="submit"
-                    >
-                        search
-                    </button>
-                </form>
-            </div>
-
-            <div class="dropdown">
-                <button
-                    class="btn btn-danger dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                >
-                    Kids
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-        </nav>
-
+   
         <!-- Main Content Goes here -->
+        <div id="TVShows">
+            <h1>
+                TV Shows
+            </h1>
+            <div class="dropdown">
+             <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-expanded="false">
+               Genres
+             </button>
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+               <a class="dropdown-item" href="#">Drama</a>
+               <a class="dropdown-item" href="#">Comedy</a>
+               <a class="dropdown-item" href="#">Others</a>
+             </div>
+           </div>
+         </div>
+         
+         
+         
+            <div class="container">
+             <h5>Trending Now</h5>
+         
+             <div id="new-release-movies1" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                     <div class="carousel-item active">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media1.jpg">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media10.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media11.jpg">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media12.jpg">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media13.jpg">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media15.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media17.jpg">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media18.jpg">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media2.webp">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media20.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media21.webp">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media22.webp">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 
+                
+                 <button class="carousel-control-next" type="button" data-target="#new-release-movies1" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                 </button>
+             </div>
+         
+             <!-- <div class="row mx-n1">
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-1.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-2.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-3.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-4.jpg">
+                 </div>
+             </div> -->
+         </div>
+         <div class="container">
+             <h5>Watch It Again</h5>
+         
+             <div id="new-release-movies2" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                     <div class="carousel-item active">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media23.webp">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media24.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media25.webp">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media26.webp">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media0.webp">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media14.webp">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media16.webp">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media19.webp">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media27.jpg">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media28.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media29.jpg">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media10.jpg">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 
+                 <button class="carousel-control-next" type="button" data-target="#new-release-movies2" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                 </button>
+             </div>
+         
+             <!-- <div class="row mx-n1">
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-1.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-2.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-3.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-4.jpg">
+                 </div>
+             </div> -->
+         </div>
+         <div class="container">
+             <h5>New Releases</h5>
+         
+             <div id="new-release-movies3" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                     <div class="carousel-item active">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media31.webp">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media32.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media4.jpg">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media5.webp">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media6.jpg">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media7.webp">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media8.webp">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media9.jpg">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="carousel-item">
+                         <div class="row mx-n1">
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media10.jpg">
+                             </div>
+                             <div class="col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media13.jpg">
+                             </div>
+                             <div class="d-none d-md-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media19.webp">
+                             </div>
+                             <div class="d-none d-lg-block col-6 col-md-4 col-lg-3 px-1">
+                                 <img class="img-fluid" src="/assets/media/media24.jpg">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 
+                 <button class="carousel-control-next" type="button" data-target="#new-release-movies3" data-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                 </button>
+             </div>
+         
+              <!----<div class="row mx-n1">
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-1.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-2.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-3.jpg">
+                 </div>
+                 <div class="col-6 col-md-4 col-lg-3 px-1">
+                     <img class="img-fluid" src="/movies/1-4.jpg">
+                 </div>
+             </div> --->
+         </div>
+
+
+
+
+
+
+
+
 
         <!-- Footer goes here -->
 
