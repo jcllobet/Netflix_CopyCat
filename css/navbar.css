@@ -7,7 +7,7 @@
     position: relative;
     left: 0px;
 }
-nav {
+.navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -24,19 +24,29 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: left;
+    margin: auto;
 }
 nav ul li {
     list-style: none;
-    margin-right: 20px;
+    margin-right: 1em;
 }
 nav ul li a {
     color: white;
     text-decoration: none;
 }
 nav ul li a:hover {
-    color: red;
+    color: lightgrey;
     text-decoration: none;
 }
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+nav ul li a.active:hover {
+    color: white;
+}
+
 .menu {
     position: relative;
 }
